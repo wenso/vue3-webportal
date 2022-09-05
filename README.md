@@ -80,6 +80,7 @@ base-webportal
 ```
 ## 配置说明
 ```bash
+#集成方法
 #接口配置
 #mock配置
 #路由配置
