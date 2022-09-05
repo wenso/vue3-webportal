@@ -1,0 +1,24 @@
+export default {
+    //统一认证
+    sso:true,
+    //是否为开发模式，开发模式不使用服务端路由数据
+    debugger:true,
+    mockGateway:'',
+    service:[
+        {
+            name:'base',
+            path:'/base',
+            mock:{
+                enable:false,
+                url:'/mock/platform/v1.0.0'
+            }
+        },{
+            name:'system',
+            path:'/system',
+            mock:{
+                enable:false,
+                url:'/mock/platform/v1.0.0'
+            }
+        }
+    ]
+}
